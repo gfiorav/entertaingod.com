@@ -1,3 +1,46 @@
-baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+baseUrl = "https://toentertaingod.com"
+title = "To Entertain God"
+theme = "hugo-theme-anubis"
+paginate = 10.0
+enableRobotsTXT = true
+
+[menu]
+
+  [[menu.main]]
+  identifier = "archive"
+  name = "Archive"
+  title = "Archive"
+  url = "/posts/"
+  weight = 0.0
+
+[params]
+author = "Guido Fioravantti"
+avatar = "/images/me.png"
+description = ""
+images = [
+  "images/og-featured.png"
+]
+customCSS = [
+  "css/custom.css"
+]
+customJS = []
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "light-without-switcher"
+readMore = false
+utterancesRepo = ""
+utterancesTheme = ""
+utterancesIssue = ""
+utterancesLabel = ""
+
+  [params.webmentions]
+  login = "hugo-theme-anubis"
+  pingback = true
+
+[markup]
+
+  [markup.goldmark]
+
+    [markup.goldmark.renderer]
+    unsafe = true
