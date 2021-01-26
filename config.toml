@@ -24,10 +24,9 @@ images = [
 customCSS = [
   "css/custom.css"
 ]
-customJS = []
 dateFormat = "2006-01-02"
 paginationSinglePost = true
-style = "light-without-switcher"
+style = "auto"
 readMore = false
 utterancesRepo = ""
 utterancesTheme = ""
