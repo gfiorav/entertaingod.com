@@ -11,6 +11,10 @@ p, .p-summary {
     font-family: 'Bad Script', cursive;
 }
 
+.site-subtitle {
+    font-size: 0.9em;
+}
+
 p {
     padding: 10px 0px;
 }
